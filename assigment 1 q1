@@ -1,0 +1,26 @@
+//ASSIGNMENT 1
+//Q1 WAP to check whether a given is Armstrong or not
+#include<stdio.h>
+#include<math.h>
+int main(){
+    int N;
+    printf("enter value of N:");
+    scanf("%d",&N);
+    int a,b,c;
+    int p,q,r;
+    printf("enter values of a,b,c:");
+    //scanf("%d %d %d",&a,&b,&c);
+    p=pow(a,N);
+    scanf("%d",&p);
+    q=pow(b,N);
+    scanf("%d",&q);
+    r=pow(c,N);
+    scanf("%d",&r);
+
+    if(p+q+r==a,b,c){
+        printf("no is a armstrong no\n");
+    }else{
+        printf("no is not a armstrong\n");
+    }
+return 0;
+}
